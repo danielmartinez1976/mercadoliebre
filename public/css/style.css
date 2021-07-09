@@ -12,9 +12,9 @@ body{
   background-color: #EAC926;
   text-align:left;
   font-size: 12px;
-
-
+  width: 100%;
 }
+
 main{
   width:100%;
   padding: 10px;
@@ -33,6 +33,18 @@ footer{
 }
 
 h5{font-size: 24px
+}
+.logomercadliebre{
+  
+  animation: aumentar 1000ms ease-in infinite alternate;
+}
+@keyframes aumentar {
+  0% {
+      transform: scale(1);
+  }
+  100% {
+      transform:scale(1.1);
+}
 }
 .centrado{
   text-align: center;
